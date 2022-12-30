@@ -3,6 +3,7 @@ This project is built on the side of my Codecademy full-stack career path as a c
 
 ## How to use
 Just open up the index.html file in your browser and make sure to have JavaScript enabled.
+To interact with the app either use your keyboard ("+", "0", "r" and "-", have some kind of functionality implemented) or press the buttons on the screen.
 
 ## Public URL
 To be added
