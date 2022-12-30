@@ -23,7 +23,7 @@ Parts of the curriculum that have been used in order to make this source come al
 
 ## Want to build onto the project?
 ### CSS alternatives
-+ Try using TailwindCSS instead of pure CSS.
++ Try using TailwindCSS instead of pure CSS/Sass.
 + And more...
 
 ### JS alternatives

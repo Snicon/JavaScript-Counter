@@ -1,3 +1,65 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #1c1917;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+}
+main #title {
+  margin: 0;
+  font-size: 4rem;
+}
+main #number {
+  margin: 0;
+  font-size: 6rem;
+  font-weight: bold;
+}
+main .container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 6rem;
+}
+main .container .button {
+  width: 6rem;
+  height: 5.5rem;
+  font-size: 3rem;
+  border-radius: 10%;
+  background-color: #1c1917;
+  color: white;
+  transition: all 0.16s ease-in-out;
+  margin: 0 0.8rem;
+}
+main .container .button-increase {
+  border: 4px solid #4ade80;
+}
+main .container .button-increase:hover,
+main .container .button-increase:focus {
+  background-color: #4ade80;
+  cursor: pointer;
+}
+main .container .button-reset {
+  border: 4px solid #57534e;
+}
+main .container .button-reset:hover,
+main .container .button-reset:focus {
+  background-color: #57534e;
+  cursor: pointer;
+}
+main .container .button-decrease {
+  border: 4px solid #f87171;
+}
+main .container .button-decrease:hover,
+main .container .button-decrease:focus {
+  background-color: #f87171;
+  cursor: pointer;
 }/*# sourceMappingURL=app.css.map */
