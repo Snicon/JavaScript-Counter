@@ -55,6 +55,15 @@ const updateCounter = action => {
             count--;
             numberSpan.innerHTML = count;
     }
+
+    switch(count) {
+      case 69:
+        numberSpan.innerHTML = "nice";
+        break;
+      case -69:
+        numberSpan.innerHTML = "not nice";
+        break;
+    }
 }
 
 const increaseButton = document.querySelector('.button-increase');
