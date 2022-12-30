@@ -36,3 +36,44 @@ const createButtons = () => {
 }
 
 createButtons();
+
+const updateCounter = action => {
+    switch(action) {
+        case 'increase':
+            count++;
+            numberSpan.innerHTML = count;
+            break;
+        case 'reset':
+            count = 0;
+            numberSpan.innerHTML = count;
+            break;
+        case 'decrease':
+            count--;
+            numberSpan.innerHTML = count;
+    }
+}
+
+const increaseButton = document.querySelector('.button-increase');
+const resetButton = document.querySelector('.button-reset');
+const decreaseButton = document.querySelector('.button-decrease');
+
+increaseButton.addEventListener('click', () => updateCounter('increase'));
+resetButton.addEventListener('click', () => updateCounter('reset'));
+decreaseButton.addEventListener('click', () => updateCounter('decrease'));
+
+document.addEventListener('keydown', event => {
+    switch(event.key) {
+        case '+':
+            updateCounter('increase');
+            break;
+        case '0':
+        case 'r':
+            updateCounter('reset');
+            break;
+        case '-':
+            updateCounter('decrease');
+            break;
+        default:
+            break;
+    }
+});
