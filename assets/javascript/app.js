@@ -37,6 +37,10 @@ const createButtons = () => {
 
 createButtons();
 
+const infoP = document.createElement('p');
+infoP.innerHTML = 'Try pressing "+", "0", "r" or "-" on your keyboard. :)'
+main.appendChild(infoP)
+
 const updateCounter = action => {
     switch(action) {
         case 'increase':
