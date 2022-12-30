@@ -62,4 +62,8 @@ main .container .button-decrease:hover,
 main .container .button-decrease:focus {
   background-color: #f87171;
   cursor: pointer;
+}
+main p {
+  color: #a8a29e;
+  font-style: italic;
 }/*# sourceMappingURL=app.css.map */
