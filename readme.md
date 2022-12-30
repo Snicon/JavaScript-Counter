@@ -1,4 +1,4 @@
-# Analog Clock App
+# Counter App
 This project is built on the side of my Codecademy full-stack career path as a compliment to the course about DOM that I recently completed in addition to event handling.
 
 ## How to use
