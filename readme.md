@@ -6,7 +6,7 @@ Just open up the index.html file in your browser and make sure to have JavaScrip
 To interact with the app either use your keyboard ("+", "0", "r" and "-", have some kind of functionality implemented) or press the buttons on the screen.
 
 ## Public URL
-To be added
+https://counter.snicon.rip
 
 ## Concepts are taken from Codecademy Career Path: Full-Stack Engineer
 Parts of the curriculum that have been used in order to make this source come alive.
